@@ -6,8 +6,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html>
+<link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+
 <head>
-<title>Real Home A Real Estate Category Flat Bootstarp Resposive Website Template | Dealers :: w3layouts</title>
+<title>Aman & Co.</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -46,26 +48,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<!--logo-->
 			<div class="logo">
-				<h1><a href="index.html">REAL HOME</a></h1>
-			</div>
-		<!--//logo-->
-		<div class="top-nav">
-			<ul class="right-icons">
-				<li><span ><i class="glyphicon glyphicon-phone"> </i>+1384 757 546</span></li>
-				<li><a  href="login.html"><i class="glyphicon glyphicon-user"> </i>Login</a></li>
-				<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i> </a></li>
-				
-			</ul>
-			<div class="nav-icon">
-				<div class="hero fa-navicon fa-2x nav_slide_button" id="hero">
-						<a href="#"><i class="glyphicon glyphicon-menu-hamburger"></i> </a>
-					</div>	
-				<!---
-				<a href="#" class="right_bt" id="activator"><i class="glyphicon glyphicon-menu-hamburger"></i>  </a>
-			--->
-			</div>
-		<div class="clearfix"> </div>
-			<!---pop-up-box---->
+			<h1 >
+                                        <a href="index.html" id="Heading" style="font-size: 170%;">
+                                            <img src="images/home2.png">Aman & Co.
+                                                <p style="font-size: 33%; color: aquamarine;">REALTORS &nbsp; BUILDERS &nbsp; DEVELOPERS &nbsp; PROMOTERS</p>
+                                            </a>
+                                        </h1>
+                                    </div>
+                                    <!--//logo-->
+                                    <div class="top-nav">
+                                        <ul class="right-icons">
+                                            <li>
+                                                <span class=" ser-grid" id="dream_form_button">
+                                                    <center>
+                                                        <a  href="#first_end" class="hi-icon hi-icon-archive glyphicon">
+                                                            <img src="images/dreamform2.png">
+                                                            </a>
+                                                            <b>DREAM FORM</b>
+                                                        </center>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                            <link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+                                            <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+							<!---pop-up-box---->
 				   
 				<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
 				<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
@@ -144,23 +154,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--//-->	
 <div class=" banner-buying">
 	<div class=" container">
-	<h3><span>Deal</span>ers</h3> 
+	<h3><span>Contact Us</span></h3> 
 	<!---->
-	<div class="menu-right">
-		 <ul class="menu">
-			<li class="item1"><a href="#"> Menu<i class="glyphicon glyphicon-menu-down"> </i> </a>
-			<ul class="cute">
-				<li class="subitem1"><a href="buy.html">Buy </a></li>
-				<li class="subitem2"><a href="buy.html">Rent </a></li>
-				<li class="subitem3"><a href="buy.html">Hostels </a></li>
-				<li class="subitem1"><a href="buy.html">Resale </a></li>
-				<li class="subitem2"><a href="loan.html">Home Loan</a></li>
-				<li class="subitem3"><a href="buy.html">Apartment </a></li>
-				<li class="subitem3"><a href="dealers.html">Dealers</a></li>
-			</ul>
-		</li>
-		</ul>
-	</div>
+	
 	<div class="clearfix"> </div>
 		<!--initiate accordion-->
 		<script type="text/javascript">
@@ -186,311 +182,169 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 </div>
 <!--//header-->
+
+
+
+
+
+
+
+
+
+
+<!--header-bottom-->
+	<div class="banner-bottom-top">
+			<div class="container">
+			<div class="bottom-header">
+				<div class="header-bottom">
+					
+					<div class=" bottom-head">
+						<a href="index.html">
+							<div class="buy-media">
+							<i class="loan"> </i>
+							<h6>Home</h6>
+							</div>
+						</a>
+					</div>
+					<div class=" bottom-head">
+						<a href="buy_single.html">
+							<div class="buy-media">
+							<i class="apart"> </i>
+							<h6>Projects</h6>
+							</div>
+						</a>
+					</div>
+					<div class=" bottom-head">
+						<a href="About_Us.html">
+							<div class="buy-media">
+							<i class="sell"> </i>
+							<h6>About Us</h6>
+							</div>
+						</a>
+					</div>
+					<div class=" bottom-head">
+						<a href="dealers.html">
+							<div class="buy-media">
+							<i class="deal"> </i>
+							<h6>Contact Us</h6>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+	</div>
+	</div>
+			<!--//-->
+				
+	<!--//header-bottom-->
+
+
+
+
+	<!-- ______________________________________________________DREAM FORM ENDS_________________________________ -->
+                                <script>
+		$(document).ready(function(){
+			$('.dealers').hide();
+
+		})
+
+
+		$('#dream_form_button').click(function(){
+			$('.dealers').fadeIn(300);
+		})
+
+		$('#close_it').click(function(){
+			$('.dealers').fadeOut(300);
+		})
+	</script>
+                                <div class="dealers" id="first_end" >
+                                	<a id="close_it" href="" class="hvr-sweep-to-right more"  style="position: fixed; top: 28%; right: 27%;">Close Dream Form</a>
+
+                                                                    <div class="container">
+                                        <center>
+                                            <iframe src="https://docs.google.com/forms/d/1QdjJJBNPpPV8uJzlKI4SDnulS0HAyKXPQf4ZHyhmy90/viewform?embedded=true" width="100%" height="1024" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                                        </center>
+                                    </div>
+                                </div>
+                                <!-- ______________________________________________________DREAM FORM ENDS_________________________________ -->
+                                
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--Dealers-->
+
+<div class="content-bottom1">
+			<div class="container">
+				<div  >
+					<center>
+						<br>
+						<br>
+						<b>
+						<h1 style="color: red; text-decoration-line: inherit;">
+						Aman & Company Pvt. Ltd.
+						</h1>
+						
+						</b>
+						<br>
+						<br>
+						<b>
+						<table><tr><td>Authenticity&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</td><td> Realness&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</td><td>Transparency</td></tr></table>
+						</b>
+						<br>
+						<b>Office : </b> HM 118, Opp. Rose Garden, Sector 60, Phase 3B1, SAS Nagar (MOHALI). Ph.0172-2263062
+						<br><br>
+						<table><tr><td>Visit :  <a href="amanandcompany.com">amanandcompany.com</a> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</td></tr></table>
+
+
+	
+						<br>
+						<b>OR<br>
+						SMS us to collect the form at : <br>
+						<table><tr><td>98556-51025&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</td><td> 98122-21100&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</td><td>98720-23062</td></tr></table>
+						</b>
+
+
+						</center>
+
+					</p>
+					<br>
+					<br>
+
+				</div>
+			</div>
+		</div>
+
+
 <div class="dealers">
 <div class="container">
-	<h3>Dealers</h3>
-	<div class="dealer">
-		<h4>Find The Right Dealer For You</h4>
-		<div class="dealer-grid">
-			<div class="col-sm-4 dealer-grid1">
-				<div class="dealer-grid-top">
-					<span>1</span>
-					<h6><a href="single.html">Lorem Ipsum is simply dummy text </a></h6>
-					<div class="clearfix"> </div>
-				</div>
-				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-			</div>
-			<div class="col-sm-4 dealer-grid1">
-				<div class="dealer-grid-top">
-					<span>2</span>
-					<h6><a href="single.html">Lorem Ipsum is simply dummy text</a></h6>
-					<div class="clearfix"> </div>
-				</div>
-				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-			</div>
-			<div class="col-sm-4 dealer-grid1">
-				<div class="dealer-grid-top">
-					<span>3</span>
-					<h6><a href="single.html">Lorem Ipsum is simply dummy text</a></h6>
-					<div class="clearfix"> </div>
-				</div>
-				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<div class="dealer-top">
-		<h4>Recent Deals</h4>
-			<div class="deal-top-top">
-				<div class="col-md-3 top-deal-top">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 top-deal-top">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de1.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 top-deal-top">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de2.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 top-deal-top ">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de3.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-			<div class="clearfix"> </div>
-		</div>		
-		<div class="deal-top-top">
-				<div class="col-md-3 top-deal-top">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de4.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 top-deal-top">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de5.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 top-deal-top">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de6.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 top-deal-top">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de7.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-			<div class="clearfix"> </div>
-		</div>		
-		<div class="deal-top-top">
-				<div class="col-md-3 top-deal-top">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de8.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 top-deal-top">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de9.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 top-deal-top">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de10.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 top-deal-top">
-					<div class=" top-deal">
-						<a href="single.html" class="mask"><img src="images/de11.jpg" class="img-responsive zoom-img" alt=""></a>
-						<div class="deal-bottom">
-							<div class="top-deal1">
-								<h5><a href="single.html"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
-							</div>
-							<div class="top-deal2">
-								<a href="single.html" class="hvr-sweep-to-right more">More</a>
-							</div>
-						<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-			<div class="clearfix"> </div>
-		</div>		
-	</div>
+<center>
+	<iframe src="https://docs.google.com/forms/d/1QdjJJBNPpPV8uJzlKI4SDnulS0HAyKXPQf4ZHyhmy90/viewform?embedded=true" width="100%" height="1024" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	</center>
 </div>
 </div>
 <!--footer-->
 <div class="footer">
-	<div class="container">
-		<div class="footer-top-at">
-			<div class="col-md-3 amet-sed">
-				<h4>Our Company</h4>
-				<ul class="nav-bottom">
-					<li><a href="about.html">About Us</a></li>
-					<li><a href="blog.html">For Sale By Owner Blog</a></li>
-					<li><a href="mobile_app.html">Mobile</a></li>
-					<li><a href="terms.html">Terms & Conditions</a></li>
-					<li><a href="privacy.html">Privacy Policy</a></li>	
-					<li><a href="blog.html">Blog</a></li>
-					
-				</ul>	
-			</div>
-			<div class="col-md-3 amet-sed ">
-				<h4>Work With Us</h4>
-					<ul class="nav-bottom">
-						<li><a href="single.html">Real Estate Brokers</a></li>
-						<li><a href="single.html">Business Development</a></li>
-						<li><a href="single.html">Affiliate Programs</a></li>
-						<li><a href="contact.html">Sitemap</a></li>
-						<li><a href="career.html">Careers</a></li>
-						<li><a href="feedback.html">Feedback</a></li>	
-					</ul>	
-			</div>
-			<div class="col-md-3 amet-sed">
-				<h4>Customer Support</h4>
-				<p>Mon-Fri, 7AM-7PM </p>
-				<p>Sat-Sun, 8AM-5PM </p>
-				<p>177-869-6559</p>
-					<ul class="nav-bottom">
-						<li><a href="#">Live Chat</a></li>
-						<li><a href="faqs.html">Frequently Asked Questions</a></li>
-						<li><a href="suggestion.html">Make a Suggestion</a></li>
-					</ul>	
-			</div>
-			<div class="col-md-3 amet-sed ">
-				<h4>Property Services</h4>
-				   <ul class="nav-bottom">
-						<li><a href="single.html">Residential Property</a></li>
-						<li><a href="single.html">Commercial Property</a></li>
-						<li><a href="login.html">Login</a></li>
-						<li><a href="register.html">Register</a></li>
-						<li><a href="typo.html">Short Codes</a></li>	
-					</ul>	
-					<ul class="social">
-						<li><a href="#"><i> </i></a></li>
-						<li><a href="#"><i class="gmail"> </i></a></li>
-						<li><a href="#"><i class="twitter"> </i></a></li>
-						<li><a href="#"><i class="camera"> </i></a></li>
-						<li><a href="#"><i class="dribble"> </i></a></li>
-					</ul>
-			</div>
-		<div class="clearfix"> </div>
-		</div>
-	</div>
+	
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="col-md-4 footer-logo">
-				<h2><a href="index.html">REAL HOME</a></h2>
+				<h2><a href="index.html">Aman & Co.</a></h2>
 			</div>
 			<div class="col-md-8 footer-class">
-				<p >© 2015 Real Home. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+				<p >© 2016 Aman & Co. All Rights Reserved | Design by  <a href="https://twitter.com/AnupKumarPanwar" target="_blank">Anup Panwar</a> </p>
 			</div>
 		<div class="clearfix"> </div>
 	 	</div>

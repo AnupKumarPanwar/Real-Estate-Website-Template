@@ -1107,6 +1107,28 @@ transform: rotatey(360deg);
 .banner-buying h3 span{
 	border-bottom: 7px solid #27DA93;
 }
+.banner-ach {
+  background: url(../images/ah1.jpg) no-repeat;
+  width: 100%;
+  min-height: 250px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.banner-ach h3{
+	color: #fff;
+	font-size: 3em;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	font-family: 'Montserrat-Regular';
+  	padding: 0 0 0.3em;
+  	float: left;
+  	margin-top: 1.8em;
+}
+.banner-ach h3 span{
+	border-bottom: 7px solid #27DA93;
+}
 /*----*/
 .menu-right{
 	position: relative;
@@ -3387,6 +3409,10 @@ p.para-in {
   font-size: 2.5em;
   margin-top: 2.2em;
 }
+.banner-ach h3 {
+  font-size: 2.5em;
+  margin-top: 2.2em;
+}
 /*--blog--*/
 .blog {
   padding: 3em 0 1em;
@@ -3909,6 +3935,12 @@ span.four {
   min-height: 220px;
 }
 .banner-buying h3 {
+  font-size: 2.3em;
+}
+.banner-ach {
+  min-height: 220px;
+}
+.banner-ach h3 {
   font-size: 2.3em;
 }
 .about-in h6 {
@@ -4502,6 +4534,13 @@ p.para-in {
   margin-top: 1.8em;
 }
 .banner-buying {
+  min-height: 120px;
+}
+.banner-ach h3 {
+  font-size: 1.5em;
+  margin-top: 1.8em;
+}
+.banner-ach {
   min-height: 120px;
 }
 .bottom-about1 {
