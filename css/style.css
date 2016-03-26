@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 }
 /*--header--*/
 .header{
-  	background-color: #27da93; 
+  	background-color: rgba(150, 150, 150, 1); 
   	  padding: 0.8em 0;
 }
 .bottom-head {
@@ -601,7 +601,7 @@ a.mask {
 	position: relative;
 	z-index: 1;
 	color:#8e8e8e;
-  	border:3px solid #27da93;
+  	border:3px solid rgba(150, 150, 150, 1);
   	line-height: 4.5em;
   	font-size: 1em;
 }
@@ -4984,6 +4984,7 @@ span.label {
   margin: 0 0 0.5em;
   display: inline-block;
 }
+
 
 .page {
   padding: 0em;
