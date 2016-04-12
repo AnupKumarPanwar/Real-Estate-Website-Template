@@ -21,9 +21,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
             <script src="js/jquery.min.js"></script>
+            <script src="js/jquery.counterup.js"></script>
             <!-- Custom Theme files -->
             <!--menu-->
             <script src="js/scripts.js"></script>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
             <link href="css/styles.css" rel="stylesheet">
                 <!--//menu-->
                 <!--theme-style-->
@@ -85,7 +87,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <!--//logo-->
                                     <div class="top-nav"  >
                                         
-                                                <span class=" ser-grid" id="dream_form_button" >
+                                                <span class=" ser-grid" id="dream_form_button" style="position: relative; margin-left: -30%">
                                                     <center >
                                                     <br>
 
@@ -216,7 +218,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <div class="content" >
                                     <div class="content-grid">
                                         <div class="container">
-                                            <h3>Most Popular</h3>
+                                            <div style="width: 100%"><h3 style="font-size: large; overflow: hidden"> MOST POPULAR </h3></div>
                                             <div class="col-md-4 box_2">
                                                 <a href="wtc.html" class="mask">
                                                     <img class="img-responsive zoom-img" src="images/wtc.png" alt="World Trade Center">
@@ -268,7 +270,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                 <div class="services">
                                                     <div class="container">
                                                         <div class="service-top">
-                                                            <h3>Services</h3>
+                                                            <div><h3 style="font-size: large;"> SERVICES </h3></div>
                                                             <p></p>
                                                         </div>
                                                         <div class="services-grid">
@@ -306,7 +308,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                             <div class="col-md-6 service-top1">
                                                                 <div class=" ser-grid">
                                                                    <a  class="hi-icon hi-icon-archive" style="border: 0">
-                                                                    	<img src="images/serv3.png" style="width: 120%">
+                                                                    	<img src="images/serv3.png" style="width: 110%">
                                                                     </a>
                                                                 </div>
                                                                 <div  class="ser-top">
@@ -400,10 +402,79 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                                 </div>
                                                             </div> -->
                                                             <!--//test-->
+<center>
+
+<div class="content" >
+                                    
+                                        <div class="container">
+ 												<div class="col-md-4 box_2">
+                                                    <a  class="mask">
+                                                        <span id="cu1" style="font-size: 30px; color: black;">1234</span>
+                                                        </a>
+                                                        <div >
+                                                            
+                                                            <p style="color: gray">HAPPY CLIENTS</p>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="col-md-4 box_2">
+                                                    <a  class="mask">
+                                                        <span id="cu2" style="font-size: 30px; color: black;">1234</span>
+                                                        </a>
+                                                        <div>
+                                                            
+                                                            <p style="color: gray">PROJECTS COMPLETED</p>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="col-md-4 box_2">
+                                                    <a  class="mask">
+                                                        <span id="cu3" style="font-size: 30px; color: black;">1234</span>
+                                                        </a>
+                                                        <div>
+                                                            
+                                                            <p style="color: gray">PROJECTS ONGOING</p>
+                                                        </div>
+                                                    </div>
+
+
+                                                    </div>
+                                                   
+                                                    </div>
+
+                                                    </center>
+
+
+
+
+
+
+
+	<script>
+
+	jQuery(document).ready(function( $ ) {
+
+	$('#cu1, #cu2, #cu3').counterUp({
+
+	delay: 10, // the delay time in ms
+
+	time: 15000 // the speed time in ms
+
+	});
+
+	});
+
+	</script>
+
+
                                                             <!-- _____________________________________________________________________ASSOCIATE DEVELOPERS ______________________________________________________________ -->
                                                             <div class="container">
                                                                 <div class="future">
-                                                                    <h3 style=" font-size: 1.5em;"> DEVELOPERS </h3>
+                                                                    <div><h3 style="font-size: large; overflow: hidden;"> ASSOCIATED DEVELOPERS </h3></div>
                                                                     <div class="content-bottom-in">
                                                                         <ul id="flexiselDemo1">
                                                                             <li>
@@ -413,11 +484,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                                                     </a>
                                                                                     <div class="fur">
                                                                                         <div class="fur1">
+                                                                                        <center>
                                                                                             <span class="fur-money"></span>
                                                                                             <h6 class="fur-name">
                                                                                                 <a href="#">ATS</a>
                                                                                             </h6>
+
                                                                                             <span></span>
+                                                                                            </center>
                                                                                         </div>
                                                                                         <!--  <div class="fur2"><span>2 BHK</span></div> -->
                                                                                     </div>
@@ -430,11 +504,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                                                     </a>
                                                                                     <div class="fur">
                                                                                         <div class="fur1">
+                                                                                        <center>
                                                                                             <span class="fur-money"></span>
                                                                                             <h6 class="fur-name">
                                                                                                 <a href="#">Comfy Developers</a>
                                                                                             </h6>
                                                                                             <span></span>
+                                                                                            </center>
                                                                                         </div>
                                                                                         <!--  <div class="fur2"><span>2 BHK</span></div> -->
                                                                                     </div>
@@ -447,11 +523,51 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                                                     </a>
                                                                                     <div class="fur">
                                                                                         <div class="fur1">
+                                                                                        <center>
                                                                                             <span class="fur-money"></span>
                                                                                             <h6 class="fur-name">
-                                                                                                <a href="#">GBP</a>
+                                                                                                <a href="#">Gupta Builders And Promoters</a>
                                                                                             </h6>
                                                                                             <span></span>
+                                                                                            </center>
+                                                                                        </div>
+                                                                                        <!-- <div class="fur2"><span>2 BHK</span></div> -->
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                             <li>
+                                                                                <div class="project-fur">
+                                                                                    <a href="#" >
+                                                                                        <img class="img-responsive" src="images/ass/bajwa.jpg" alt="" />
+                                                                                    </a>
+                                                                                    <div class="fur">
+                                                                                        <div class="fur1">
+                                                                                        <center>
+                                                                                            <span class="fur-money"></span>
+                                                                                            <h6 class="fur-name">
+                                                                                                <a href="#">Bajwa Developers</a>
+                                                                                            </h6>
+                                                                                            <span></span>
+                                                                                            </center>
+                                                                                        </div>
+                                                                                        <!-- <div class="fur2"><span>2 BHK</span></div> -->
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                             <li>
+                                                                                <div class="project-fur">
+                                                                                    <a href="#" >
+                                                                                        <img class="img-responsive" src="images/ass/jlpl.jpg" alt="" />
+                                                                                    </a>
+                                                                                    <div class="fur">
+                                                                                        <div class="fur1">
+                                                                                        <center>
+                                                                                            <span class="fur-money"></span>
+                                                                                            <h6 class="fur-name">
+                                                                                                <a href="#">Janta Housing</a>
+                                                                                            </h6>
+                                                                                            <span></span>
+                                                                                            </center>
                                                                                         </div>
                                                                                         <!-- <div class="fur2"><span>2 BHK</span></div> -->
                                                                                     </div>
@@ -464,11 +580,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                                                     </a>
                                                                                     <div class="fur">
                                                                                         <div class="fur1">
+                                                                                        <center>
                                                                                             <span class="fur-money"></span>
                                                                                             <h6 class="fur-name">
-                                                                                                <a href="#">Golden Sands</a>
+                                                                                                <a href="#">Golden Sand</a>
                                                                                             </h6>
                                                                                             <span></span>
+                                                                                            </center>
                                                                                         </div>
                                                                                         <!--   <div class="fur2"><span>2 BHK</span></div> -->
                                                                                     </div>
@@ -481,11 +599,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                                                     </a>
                                                                                     <div class="fur">
                                                                                         <div class="fur1">
+                                                                                        <center>
                                                                                             <span class="fur-money"></span>
                                                                                             <h6 class="fur-name">
                                                                                                 <a href="#">Maya Gardens</a>
                                                                                             </h6>
                                                                                             <span></span>
+                                                                                            </center>
                                                                                         </div>
                                                                                         <!--   <div class="fur2"><span>2 BHK</span></div> -->
                                                                                     </div>
@@ -498,11 +618,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                                                     </a>
                                                                                     <div class="fur">
                                                                                         <div class="fur1">
+                                                                                        <center>
                                                                                             <span class="fur-money"></span>
                                                                                             <h6 class="fur-name">
                                                                                                 <a href="#">Mona Townships</a>
                                                                                             </h6>
                                                                                             <span></span>
+                                                                                            </center>
                                                                                         </div>
                                                                                         <!--   <div class="fur2"><span>2 BHK</span></div> -->
                                                                                     </div>
@@ -515,11 +637,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                                                     </a>
                                                                                     <div class="fur">
                                                                                         <div class="fur1">
+                                                                                        <center>
                                                                                             <span class="fur-money"></span>
                                                                                             <h6 class="fur-name">
-                                                                                                <a href="#">J Classic</a>
+                                                                                                <a href="#">Jagan'z Classic Residency</a>
                                                                                             </h6>
                                                                                             <span></span>
+                                                                                            </center>
                                                                                         </div>
                                                                                         <!--   <div class="fur2"><span>2 BHK</span></div> -->
                                                                                     </div>
@@ -561,7 +685,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  -->
                                                             <!--partners-->
                                                             <div class="content-bottom1">
-                                                                <h3>Our Partners</h3>
+                                                                <div><h3 style="font-size: large;"> OUR PARTNERS </h3></div>
                                                                 <div class="container">
                                                                     <ul>
                                                                         <li>
@@ -625,7 +749,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                                         <div class="footer-bottom">
                                                                             <div class="container">
                                                                                 <div class="col-md-8 footer-logo" >
-                                                                                    <h2 style="font-size:inherit">
+                                                                                    <h2 style="font-size:80%;">
                                                                                         <a href="index.html">Home</a>&nbsp;&nbsp;
                                                                                         <a href="buy_single.html">Projects</a>&nbsp;&nbsp;
                                                                                         <a href="About_Us.html">About Us</a>&nbsp;&nbsp;
