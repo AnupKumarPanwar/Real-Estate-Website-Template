@@ -1497,7 +1497,7 @@ font-family: 'Montserrat-Regular';
   margin: 0 1%;
 }
 .project-fur{
-	border: 1px solid #CACACA;
+	border: 0px solid #CACACA;
 	margin: 0 15px;
 }
 .fur{
@@ -2629,6 +2629,7 @@ font-family: 'Montserrat-Regular';
 }
 .contact-right textarea{
 	height:150px;
+
 	resize:none;
 }
 .contact-right input[type="submit"] {
