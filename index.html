@@ -1,11 +1,5 @@
 <link rel="shortcut icon" href="favicon.png">
-<!-- <iframe width="640" height="360" src="https://www.youtube.com/watch?v=KZHSR5VG0uU" frameborder="0" allowfullscreen autoplay></iframe> -->
-<!--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE html>
 <html>
     <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
@@ -404,16 +398,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                             <!--//test-->
 <center>
 
-<div class="content" >
+<div class="content" style="background-color: rgb(111, 111, 111);">
                                     
-                                        <div class="container">
+                                        <div class="container" >
  												<div class="col-md-4 box_2">
                                                     <a  class="mask">
-                                                        <span id="cu1" style="font-size: 30px; color: black;">120</span>
+                                                    	<img class="img-responsive" src="images/n1.png">
+                                                        <span id="cu1" style="font-size: 30px; color: black;">1521</span>
                                                         </a>
                                                         <div >
                                                             
-                                                            <p style="color: gray">HAPPY CLIENTS</p>
+                                                            <p style="color: white">HAPPY CLIENTS</p>
                                                         </div>
                                                     </div>
 
@@ -421,11 +416,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                                                     <div class="col-md-4 box_2">
                                                     <a  class="mask">
-                                                        <span id="cu2" style="font-size: 30px; color: black;">120</span>
+                                                    <img class="img-responsive" src="images/n2.png">
+                                                        <span id="cu2" style="font-size: 30px; color: black;">430</span>
                                                         </a>
                                                         <div>
                                                             
-                                                            <p style="color: gray">PROJECTS COMPLETED</p>
+                                                            <p style="color: white">COMPLETED PROJECTS</p>
                                                         </div>
                                                     </div>
 
@@ -433,11 +429,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                                                     <div class="col-md-4 box_2">
                                                     <a  class="mask">
-                                                        <span id="cu3" style="font-size: 30px; color: black;">120</span>
+                                                    <img class="img-responsive" src="images/cons.png">
+                                                        <span id="cu3" style="font-size: 30px; color: black;">27</span>
                                                         </a>
                                                         <div>
                                                             
-                                                            <p style="color: gray">PROJECTS ONGOING</p>
+                                                            <p style="color: white">ONGOING PROJECTS</p>
                                                         </div>
                                                     </div>
 
@@ -457,18 +454,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script>
 
 	jQuery(document).ready(function( $ ) {
+
+
+        $('#cu1, #cu2, #cu3').counterUp({
+
+    delay: 10, // the delay time in ms
+
+    time: 8000 // the speed time in ms
+
+    });
+
+
 		setInterval(function(){
 
 			$('#cu1, #cu2, #cu3').counterUp({
 
 	delay: 10, // the delay time in ms
 
-	time: 1500 // the speed time in ms
+	time: 8000 // the speed time in ms
 
 	});
 
 
-		}, 5500)
+		}, 13000)
 
 	
 	});
